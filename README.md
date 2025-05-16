@@ -123,14 +123,9 @@ plt.show()
 
 ## 🖼️ Screenshots
 
-### 📈 Training Set Visualization
-![Training Set](images/training_plot.png)
+### 📈 Training | Test Set ! Evaluation Metrics,Visualization
 
-### 📉 Test Set Visualization
-![Test Set](images/test_plot.png)
-
-### 📊 Model Evaluation Metrics
-![Evaluation Metrics](images/evaluation_metrics.png)
+![Training Set](images/training_plot.jpg)
 
 ---
 
