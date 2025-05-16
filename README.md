@@ -42,7 +42,16 @@ salary-predictor/
 ```bash
 pip install numpy pandas matplotlib scikit-learn
 ```
+---
 
+## ▶️ How to Run This Project in Google Colab
+
+1. Open [Google Colab](https://colab.research.google.com/)
+2. Click **File → Upload Notebook**, then select `Salary_Prediction_Tutorial.py` or `.ipynb`
+3. In the first code cell, upload the CSV:
+```python
+from google.colab import files
+uploaded = files.upload()
 ---
 
 ## ▶️ How to Run This Project in Jupyter Notebook
