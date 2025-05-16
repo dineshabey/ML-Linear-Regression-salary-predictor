@@ -125,7 +125,7 @@ plt.show()
 
 ### 📈 Training | Test Set ! Evaluation Metrics,Visualization
 
-![Training Set](images/training_plot.jpg)
+![Training Set](app/images/training_plot.jpg)
 
 ---
 
@@ -162,9 +162,9 @@ git push origin feature-name
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo" />
 </a>
 
-<a href="mailto:dinabeysinge@gmail.com" target="_blank">
+<!-- <a href="mailto:dinabeysinge@gmail.com" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo" />
-</a>
+</a> -->
 
 <a href="https://huggingface.co/dineshabeysinghe" target="_blank">
     <img src="https://img.shields.io/static/v1?message=HuggingFace&logo=huggingface&label=&color=FFAA00&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="huggingface logo" />
