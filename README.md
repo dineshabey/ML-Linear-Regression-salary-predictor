@@ -17,13 +17,17 @@ Explore and learn the magic of Supervised Learning through hands-on examples! Th
 ```
 salary-predictor/
 ├── data/
-│   └── Salary_Data.csv          # Dataset (Years of Experience vs Salary)
+│   └── Salary_Data.csv                # Dataset (Years of Experience vs Salary)
 ├── notebooks/
-│   └── Salary_Prediction_Tutorial.py  # Full tutorial code (Colab style)
+│   └── Salary_Prediction_Tutorial.py  # Full tutorial code
 ├── src/
 │   └── (future) train_model.py, predict.py
 ├── app/
 │   └── (future) Streamlit app.py
+├── images/
+│   ├── training_plot.png
+│   ├── test_plot.png
+│   └── evaluation_metrics.png
 ├── README.md
 ```
 
@@ -33,10 +37,35 @@ salary-predictor/
 
 ### Prerequisites
 - 🐍 Python 3.x
-- 📦 Install libraries:
+- 💻 Jupyter Notebook installed (`pip install notebook`)
+- 📦 Required packages:
 ```bash
 pip install numpy pandas matplotlib scikit-learn
 ```
+
+---
+
+## ▶️ How to Run This Project in Jupyter Notebook
+
+1. Clone this repository:
+```bash
+git clone https://github.com/dineshabey/ML-Linear-Regression-salary-predictor.git
+cd ML-Linear-Regression-salary-predictor
+```
+
+2. Launch Jupyter Notebook:
+```bash
+jupyter notebook
+```
+
+3. Open `notebooks/Salary_Prediction_Tutorial.py` or convert it to `.ipynb` if needed.
+
+4. Make sure `data/Salary_Data.csv` is in the correct path.
+
+5. Run the cells step-by-step and see:
+   - 📈 Visualizations
+   - 🧠 Model training
+   - 📊 Evaluation output
 
 ---
 
@@ -83,10 +112,16 @@ plt.show()
 
 ---
 
-## 🌐 Live Demo & Code
+## 🖼️ Screenshots
 
-- 💾 Download project files from this repository.
-- 🔗 Streamlit UI coming soon!
+### 📈 Training Set Visualization
+![Training Set](images/training_plot.png)
+
+### 📉 Test Set Visualization
+![Test Set](images/test_plot.png)
+
+### 📊 Model Evaluation Metrics
+![Evaluation Metrics](images/evaluation_metrics.png)
 
 ---
 
@@ -132,24 +167,11 @@ git push origin feature-name
 </a>
 
 <a href="https://www.linkedin.com/newsletters/7205635660026703872/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=FutureAIToday&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo" />
+    <img src="https://img.shields.io/static/v1?message=FutureAIToday&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin newsletter logo" />
 </a>
 </div>
 
 ---
 
-This README provides a complete overview of the project with code examples and contribution guidelines. Enjoy building with Python ML! 🎉
-
-
----
-
-## 🖼️ Screenshots
-
-### 📈 Training Set Visualization
-![Training Set](images/training_plot.png)
-
-### 📉 Test Set Visualization
-![Test Set](images/test_plot.png)
-
-### 📊 Model Evaluation Metrics
-![Evaluation Metrics](images/evaluation_metrics.png)
+This README provides a complete overview of the project with code examples, screenshots, and contribution guidelines.  
+Enjoy building with Python ML! 🎉
